@@ -16,7 +16,7 @@ class BookScraper
     @books = []
   end
 
-  def get_books_info
+  def return_books_info
     page = 1
     while page <= @total_pages
       paginate_page(page).each do |book|
@@ -28,6 +28,9 @@ class BookScraper
         @books << individual_book
       end
       page += 1
+    end
+    File.open('books.txt', 'w') do |file|
+      @books.each { |element| file.puts(element) }
     end
     @books
   end

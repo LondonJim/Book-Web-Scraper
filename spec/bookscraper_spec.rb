@@ -11,7 +11,7 @@ describe BookScraper do
     it "returns a lists of books" do
       VCR.use_cassette('bookscraper') do
         book_scraper = BookScraper.new
-        expect(book_scraper.get_books_info).to include(books_file)
+        expect(book_scraper.return_books_info).to include(books_file)
       end
     end
   end
