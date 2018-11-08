@@ -18,6 +18,25 @@ To run the web scraper and return a text file with all the book information:
 
 It will create a file called `books.txt` in the root containing all the book information as saved in the array
 
+To run the methods within irb:
+
+`irb`
+
+Enter the following to execute:
+
+`2.5.1 :001 > require './bookscraper.rb'`
+
+`2.5.1 :002 > book_scraper = BookScraper.new`
+
+Return the book information from the website:
+
+`2.5.1 :003 > book_scraper.return_books_info`
+
+To make a file with the information in the root:
+
+`2.5.1 :004 > book_scraper.create_file`
+
+
 
 ### Testing
 

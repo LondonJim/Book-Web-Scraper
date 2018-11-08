@@ -29,10 +29,13 @@ class BookScraper
       end
       page += 1
     end
+    @books
+  end
+
+  def create_file
     File.open('books.txt', 'w') do |file|
       @books.each { |element| file.puts(element) }
     end
-    @books
   end
 
   private
