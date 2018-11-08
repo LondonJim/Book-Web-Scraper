@@ -49,4 +49,4 @@ To run tests:
 
 ### Variations in book numbers
 
-The code will be able to run with any number of books that are added or taken away and can also can adapt to the number of books displayed on the pages (currently there are 20 per page). The inialization of the BookScraper class contains the code for working out the number of pages to scrape for information.
+The code will be able to run with any number of books that are added or taken away and can also adapt to the number of books displayed on the pages (currently there are 20 per page). The initialisation of the BookScraper class contains the code for working out the number of pages to scrape for information.
