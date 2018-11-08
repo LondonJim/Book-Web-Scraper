@@ -1,6 +1,6 @@
 # Book Web Scraper
 
-I created a web scraper to use with the website http://books.toscrape.com. The information I obtained and is returned as an array includes the name of the book, the cost and the url link.
+I created a web scraper to use with the website http://books.toscrape.com. The information I obtained is returned as an array includes the name of the book, the cost and the url link.
 
 ### Installation and executing
 
@@ -16,7 +16,7 @@ To run the web scraper and return a text file with all the book information:
 
 `ruby runBookscraper.rb`
 
-It will create a file called `books.txt` in the root containing all the book information
+It will create a file called `books.txt` in the root containing all the book information as saved in the array
 
 
 ### Testing
